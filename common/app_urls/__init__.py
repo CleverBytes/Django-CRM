@@ -12,3 +12,4 @@ urlpatterns = [
     path("events/", include("events.urls", namespace="api_events")),
     path("cases/", include("cases.urls", namespace="api_cases")),
 ]
+    path("contacts/", include("contacts.urls", namespace="
